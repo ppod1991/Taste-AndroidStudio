@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:background">@color/light_blue</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar">
+        <item name="android:background">@color/maroon</item>
+    </style>
+</resources>

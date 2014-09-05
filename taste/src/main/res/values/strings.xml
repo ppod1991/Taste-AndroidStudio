@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">taste</string>
+    <string name="coupon_greeting">Gifts for you:</string>
+    <string name="app_id">193198737555570</string>
+    <string name="title_activity_camera">taste</string>
+    <string name="toCameraActivityButton">Take a Snap!</string>
+    <string name="title_activity_code">taste</string>
+    <string name="code_instructions">Show your phone to your server:</string>
+    <string name="verify_snap">Get Gift!</string>
+    <string name="facebook_signin">Sign In With Facebook</string>
+    <string name="capture_string">Capture</string>
+    <string name="title_activity_edit_image">taste</string>
+    <string name="action_settings">Settings</string>
+    <string name="share_snap">Share</string>
+    <string name="image_view_description">The Taken Picture</string>
+    <string name="title_activity_view_promotion">taste</string>
+    <string name="takeNewPicture">Take A New Picture!</string>
+    <string name="title_activity_redeem">taste</string>
+    <string name="redeem_button">Redeem!</string>
+    <string name="hello_world">Redeem!</string>
+	<string name="crash_toast_text">The application has crashed--please try again.</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+	<color name="maroon">#320A0A</color>
+	<color name="light_blue">#C4D5E0</color>
+	<color name="light_gray">#DCDCDC</color>
+	<string name="describe_this">say something...</string>
+	<string name="choose_store">Where are you?</string>
+	<string name="settings">Log Out</string>
+	
+</resources>

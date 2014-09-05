@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_preview"
+    android:orientation='horizontal'
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    >
+
+      <ImageButton
+          android:id="@+id/button_capture"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|center_horizontal"
+          android:layout_marginBottom="25dp"
+          android:adjustViewBounds="true"
+          android:background="@android:color/transparent"
+          android:maxHeight="100dp"
+          android:maxWidth="100dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/camera_button" />
+
+      <ProgressBar
+          android:id="@+id/progress_bar_camera"
+          style="?android:attr/progressBarStyleLarge"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical|center_horizontal"
+          android:visibility="invisible" />
+
+      <ImageView
+          android:id="@+id/flash_status"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_gravity="top|right"
+          android:layout_margin="10dp"
+          android:src="@drawable/no_flash_icon" />
+
+ </FrameLayout>
+<!-- From: file:/C:/Users/Piyush/AndroidstudioProjects/Taste/taste/src/main/res/layout/activity_camera.xml -->

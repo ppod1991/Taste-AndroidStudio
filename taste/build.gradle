@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "com.pod.taste"
+        minSdkVersion 14
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':facebookSDK')
+    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.google.android.gms:play-services:+'
+    compile 'com.android.support:appcompat-v7:19.+'
+    compile files('libs/acra-4.5.0.jar')
+    compile files('libs/okhttp-1.6.0.jar')
+    compile files('libs/okhttp-urlconnection-1.6.0.jar')
+    compile files('libs/okio-1.0.0.jar')
+    compile files('libs/retrofit-1.6.0.jar')
+}

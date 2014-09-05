@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.taste.RedeemActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/redeem_expiration"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/redeem_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="false"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="25dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:onClick="redeemPromotion"
+            android:scaleType="fitXY"
+            android:src="@drawable/redeem_button"
+            android:text="@string/redeem_button" />
+
+        <TextView
+            android:id="@+id/redeem_instructions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/redeem_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Show this Screen to your Server to Redeem"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/expiration_date_redeem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/store_name_redeem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textColor="@color/maroon"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/display_text_redeem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/redeem_instructions"
+            android:layout_alignBottom="@id/redeem_instructions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="85dp"
+            android:gravity="center_horizontal"
+            android:text="$2 Gift for each person in your party!"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="28sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Piyush/AndroidstudioProjects/Taste/taste/src/main/res/layout/activity_redeem.xml -->

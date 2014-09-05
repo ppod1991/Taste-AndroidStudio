@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/edited_image_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/verify_sublayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/verify_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:onClick="verifyCode"
+            android:scaleType="fitXY"
+            android:src="@drawable/gift_button"
+            android:text="@string/verify_snap" />
+
+        <TextView
+            android:id="@+id/verify_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/code_instructions" />
+
+        <EditText
+            android:id="@+id/enter_code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:ems="10"
+            android:inputType="numberPassword" >
+
+            <requestFocus />
+
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Piyush/AndroidstudioProjects/Taste/taste/src/main/res/layout/activity_code.xml -->
