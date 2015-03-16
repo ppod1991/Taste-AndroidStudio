@@ -8,6 +8,7 @@ Taste is a mobile app that lets you take pictures at local businesses and share 
 
 ###Facebook Authentication
 * Persistent log-in
+
 ![Facebook Log-in] (http://www.piyushpoddar.com/public/images/gifs/taste/android/fb_login.gif)
 
 
